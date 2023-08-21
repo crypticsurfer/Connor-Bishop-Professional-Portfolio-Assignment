@@ -40,13 +40,93 @@ main h2 {
 /* These next classes will deal with the look of the biography */
 
 #bio {
-    font-size: 28px;
+    font-size: 32px;
     font-family: var(--primary-font);
     background-color: var(--primary-color);
     color: var(--secondary-color)
 }
 
 #biopicture {
-    width: 30%;
+    width: 100%;
     background-color: var(--primary-color);
+}
+
+.articlebio {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border:solid;
+    font-size: 28px;
+}
+
+.articlebio p{
+    padding: 2rem;
+}
+
+/* here we will deel with the portfolio and the placement of text and images */
+#portfolio {
+    font-size: 28px;
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+
+.article {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.article p{
+    padding: 1rem;
+}
+
+.imagewraper {
+    width: 30rem;
+}
+
+.projectimagewraper {
+    width: 30rem;
+}
+
+#pic1 {
+    width: 150%;
+}
+
+#pic2 {
+    width: 150%;
+}
+
+#pic3 {
+    width: 150%;
+}
+
+/* This section will deal with my contact info */
+
+#contact {
+    font-size: 32;
+    text-align: center;
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-family: var(--primary-font);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+    color: rgb(22, 162, 255);
+}
+
+#email::before {
+    content: "Email:";
 }
