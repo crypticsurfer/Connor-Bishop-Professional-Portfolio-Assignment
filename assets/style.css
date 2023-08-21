@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #48248d;
+    --secondary-color: #ff2d08; 
+    --selector-color: #ffffff; 
+    --primary-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: var(--primary-color);
+    font-family: var(--primary-font);
+}
+
+main h2 {
+    padding: 10px;
+}
+
+/* This next class will house all the nav bar changes */
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 42px;
+    color: var(--secondary-color);
+}
