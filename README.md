@@ -16,7 +16,8 @@ NA
 
 The end result can be viewed [here.](https://crypticsurfer.github.io/Connor-Bishop-Professional-Portfolio-Assignment/)
 
-Screenshot: ![Portfolio Project Screenshot](https://1drv.ms/i/s!AsYJZ6NFtVDegbJZzNRPXzhhxAqvgw?e=qdz7aW)
+Screenshot: ![Portfolio Project Screenshot](https://github.com/crypticsurfer/Connor-Bishop-Professional-Portfolio-Assignment/assets/130003418/70619905-a16a-4b14-a6b9-be8ce1de5e75)
+
 
 ## License
 
