@@ -14,8 +14,9 @@ NA
 
 ## Usage
 
-The end result can be viewed [here.]()
+The end result can be viewed [here.](https://crypticsurfer.github.io/Connor-Bishop-Professional-Portfolio-Assignment/)
 
+Screenshot: ![Portfolio Project Screenshot](https://1drv.ms/i/s!AsYJZ6NFtVDegbJZzNRPXzhhxAqvgw?e=qdz7aW)
 
 ## License
 
