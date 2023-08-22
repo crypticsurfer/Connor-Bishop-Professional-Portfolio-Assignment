@@ -1,73 +1,87 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <!-- This next section of HTML will be responsible for loading in the character set, the title, and the css -->
-    <head>
-        <meta charset="UTF-8">
-        <title>Connor Bishop's Portfolio</title>
-        <link rel="stylesheet" href="./assets/reset.css">
-        <link rel="stylesheet" href="./assets/style.css">
-    </head>
+<!-- This next section of HTML will be responsible for loading in the character set, the title, and the css -->
 
-    <body>
-        <!-- This next section will be the navigation bar at the top of the page -->
-        <header>
-            <nav class="nav">
-                <h1>Connor Bishop</h1>
-                <ul>
-                    <li class="link">
-                        <a href="#bio">Biography</a>
-                    </li>
-                    <li class="link">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="link">
-                        <a href="#contact">Contact Information</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <title>Connor Bishop's Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
 
-        <br>
-        <!-- This next section will house my profile picture and the text for my bio -->
-        <main>
+<body>
+    <!-- This next section will be the navigation bar at the top of the page -->
+    <header>
+        <nav class="nav">
+            <h1>Connor Bishop</h1>
+            <ul>
+                <li class="link">
+                    <a href="#bio">Biography</a>
+                </li>
+                <li class="link">
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="link">
+                    <a href="#contact">Contact Information</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <!-- This next section will house my profile picture and the text for my bio -->
+    <main>
+        <div>
             <h2 id="bio">Biography</h2>
             <article class="articlebio">
                 <div class="imagewraper">
                     <img id="biopicture" alt="A picture of Connor Bishop" src="./assets/Images/Profile_pic.jpg">
                 </div>
-                    <p>My name is Connor Bishop. I live in Mountain Green, Utah. I graduated from University of Portland 
-                        with a bachelors in Organizational Communication and am now currently attending the University of Utah 
-                        full stack web development bootcamp. I love to play soccer, go surfing, play video games, watch movies,
-                         and be outdoors.</p>
+                <p>My name is Connor Bishop. I live in Mountain Green, Utah. I graduated from University of Portland
+                    with a bachelors in Organizational Communication and am now currently attending the University of
+                    Utah
+                    full stack web development bootcamp. I love to play soccer, go surfing, play video games, watch
+                    movies,
+                    and be outdoors.</p>
             </article>
+        </div>
 
-            <!-- This next section will have all of my portfolio work and images -->
+        <!-- This next section will have all of my portfolio work and images -->
+        <div>
             <h2 id="portfolio">Portfolio</h2>
             <article class="article">
-                <p>Prework Study Guide</p>
-                <a class="projectimagewraper" href="https://crypticsurfer.github.io/prework-study-guide/"><img id="pic1" alt="An image of basic info on HTML, CSS, and Javascript from my prework" src="./assets/Images/Prework-Study-Guide screenshot.PNG"></a>
+                    <p class="projectheader">Prework Study Guide</p>
+                <a class="projectimagewraper1" href="https://crypticsurfer.github.io/prework-study-guide/"><img id="pic1"
+                        alt="An image of basic info on HTML, CSS, and Javascript from my prework"
+                        src="./assets/Images/Prework-Study-Guide screenshot.PNG"></a>
             </article>
 
             <article class="article">
-                <p>Horiseon HTML Code Refractor</p>
-                <a class="projectimagewraper" href="https://crypticsurfer.github.io/Week-1-Bootcamp/"><img id="pic2" alt="An image of the Horiseon home page" src="./assets/Images/Hw assignment 1 coding bootcamp.PNG"></a>
-            </article>
-            
-            <article class="article">
-                <p>D&D Quick</p>
-                <a class="projectimagewraper" href="jaredboehm.github.io/dnd-quick/"><img id="pic3" alt="A D&D character creation sheet" src="./assets/Images/D&D Quick Image 1.PNG"></a>
+                <p class="projectheader">Horiseon HTML Code Refractor</p>
+                <a class="projectimagewraper" href="https://crypticsurfer.github.io/Week-1-Bootcamp/"><img id="pic1"
+                        alt="An image of the Horiseon home page"
+                        src="./assets/Images/Hw assignment 1 coding bootcamp.PNG"></a>
             </article>
 
-            <!-- This Next section will be Contact Info -->
+            <article class="article">
+                <p class="projectheader">D&D Quick</p>
+                <a class="projectimagewraper" href="https://jaredboehm.github.io/dnd-quick/"><img id="pic1"
+                        alt="A D&D character creation sheet" src="./assets/Images/D&D Quick Image 1.PNG"></a>
+            </article>
+        </div>
+        <!-- This Next section will be Contact Info -->
+        <div>
             <h2 id="contact">Contact Information</h2>
-                <div>
-                    <a id="email" href="mailto:cb.connor.bishop@gmail.com">cb.connor.bishop@gmail.com</a>
-                </div>
-        </main>
+            <div>
+                <a id="email" href="mailto:cb.connor.bishop@gmail.com">cb.connor.bishop@gmail.com</a>
+            </div>
+        </div>
+    </main>
 
-        <footer>
-            <h3>Created By Connor Bishop using HTML and CSS</h3>
-        </footer>
-        
-    </body>
+    <footer>
+        <h3>Created By Connor Bishop using HTML and CSS</h3>
+    </footer>
+
+</body>
+
 </html>
