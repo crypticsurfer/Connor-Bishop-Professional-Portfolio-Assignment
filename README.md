@@ -2,12 +2,11 @@
 A portfolio designed to showcase my best work
 
 ## Description
-A simple portfolio website to showcase some of my best work. Accessability was considered throughout the development process, as well as an effort to make the CSS concise and highly readable.
+A simple portfolio website to showcase some of my best work. I tried to make the website easy to use and made an effort to explain the html and css with comments throughout.
 
 
 ## Credits
-- Thanks to Ruandré Janse van Rensburg for the social icon SVG codes, which can be found [here.](https://codepen.io/ruandre/pen/MWXxem)
-- [Autoprefixer](https://autoprefixer.github.io/) was used for all the vendor prefixes.
+Connor Bishop
 
 ## Installation
 
